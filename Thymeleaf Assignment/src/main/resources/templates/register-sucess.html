@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"
+xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div align="center">
+    <h1>Rgistered User Information</h1>
+    <div>
+      <p>Name:<strong th:text="${userform.name}"></strong></p>
+      <p>Email:<strong th:text="${userform.email}"></strong></p>
+      <p>Password:<strong th:text="${userform.password}"></strong></p>
+      <p>Gender:<strong th:text="${userform.gender}"></strong></p>
+      <p>Address:<strong th:text="${userform.address}"></strong></p>
+      <p>Profession:<strong th:text="${userform.profession}"></strong></p>
+    </div>
+  </div>
+  
+</body>
+</html>
